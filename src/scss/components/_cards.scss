@@ -1,0 +1,35 @@
+.MyCards {
+  img {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+  }
+
+  .blocName {
+    justify-content: center;
+    margin: 150px auto;
+    color: #000;
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 17px;
+      justify-content: center;
+
+      color: #000;
+    }
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .card-body {
+      align-content: center;
+      padding-top: 25%;
+    }
+  }
+}
